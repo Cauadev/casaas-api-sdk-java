@@ -6,29 +6,29 @@
 >
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.asaas</groupId>
-    <artifactId>api-sdk</artifactId>
-    <version>1.0.3</version>
+    <groupId>com.example</groupId>
+    <artifactId>api-sdk-fork</artifactId>
+    <version>1.0.3-fork</version>
 
     <!-- See https://central.sonatype.org/publish/requirements/#project-name-description-and-url -->
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A Java SDK for AsaasSdk</description>
-    <url>https://asaas.com</url>
+    <url>https://github.com/example/casaas-api-sdk-java</url>
 
     <!-- See https://central.sonatype.org/publish/requirements/#scm-information -->
     <scm>
-        <connection>scm:git:git://github.com/asaasdev/asaas-api-sdk-java.git</connection>
-        <developerConnection>scm:git:ssh://github.com/asaasdev/asaas-api-sdk-java.git</developerConnection>
-        <url>https://github.com/asaasdev/asaas-api-sdk-java/tree/master</url>
+        <connection>scm:git:git://github.com/example/casaas-api-sdk-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com/example/casaas-api-sdk-java.git</developerConnection>
+        <url>https://github.com/example/casaas-api-sdk-java/tree/main</url>
     </scm>
 
     <!-- See https://central.sonatype.org/publish/requirements/#developer-information -->
     <developers>
         <developer>
-            <name>Integrações Asaas</name>
-            <email>integracoes@asaas.com.br</email>
-            <organization>Asaas</organization>
-            <organizationUrl>https://github.com/asaasdev/</organizationUrl>
+            <name>Example Developer</name>
+            <email>dev@example.com</email>
+            <organization>ExampleOrg</organization>
+            <organizationUrl>https://github.com/example/</organizationUrl>
         </developer>
     </developers>
 
